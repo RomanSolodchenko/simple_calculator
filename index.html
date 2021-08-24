@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Простой Калькулятор</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="input_box">
+            <input id="num1" />
+            <input id="num2" />
+        </div>
+
+        <div id="operator_btn">
+            <button id="plus" class="operator" onclick="mat='+'">+</button>
+            <button id="minus" class="operator" onclick="mat='-'">-</button>
+            <button id="multiplication" class="operator" onclick="mat='*'">*</button>
+            <button id="division" class="operator" onclick="mat='/'">/</button>
+        </div>
+
+        <div class="input_answer">
+            <button class="result result_btn" onclick="functionMath()">Равно</button>
+            <p id="result"></p>
+        </div>
+
+    </div>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
